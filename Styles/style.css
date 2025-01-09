@@ -31,6 +31,17 @@
     /* margin-top: 30px; */
     border-radius: 5px;
 }
+.btn-contact{
+    background-color: transparent;
+    font-weight: bold;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: 2px solid rgb(253, 110, 10);
+    /* margin-top: 30px; */
+    border-radius: 5px;
+    margin-left: 30px;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -202,4 +213,57 @@ main section{
 
 .resume-container hr{
     margin-bottom: 29px;
+}
+
+/* footer style */
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 130px 230px;
+}
+
+.footer-description{
+    font-size: 16px;
+    color: #474747;
+}
+
+.footer-img{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    color: #757575;
+    width: 461px;
+    padding: 5px 30px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+footer textarea{
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    color: #757575;
+    width: 461px;
+    padding: 18px 30px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 16px;
+
+}
+
+/* icon style */
+
+div button i{
+    margin-right: 10px;
 }
